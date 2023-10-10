@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding-left: 100px;
+
+    & .navbar-brand {
+        color: black;
+        font-weight: 500;
+    }
+
+    & .navbar-nav {
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 0;
+    }
+}
+
+.main2 {
+    width: 1680px;
+    margin: 50px 0 0 120px;
+}
+@media screen and (max-width: 768px) {
+    .main2 {
+        margin: 50px 10px 20px 10px;
+        width: 760px;
+    }
+}
+
+.row {
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.imgt > img {
+    object-fit: cover;
+    width: 800px;
+    height: 450px;
+}
+@media screen and (max-width: 768px){
+    .imgt>img {
+        width: 735px;
+        height: 450px;
+    }
+}
+
+.product--name {
+    
+    padding: 15px;
+    margin-left: -10px;
+    margin-bottom: 190px;
+
+    & p {
+        font-weight: 400;
+    }
+
+    & form {
+        margin-top: -15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .product--name {
+        position: relative;
+        left: 2px;
+        bottom: -70px;
+        margin: 0 10px 0 10px;
+        width: 734px;
+    }
+}
+
+.pg {
+    margin: 10px 0 0 12px;
+    width: 620px;
+
+    & p {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .pg {
+        position: relative;
+        top: -260px;
+        margin-left: 30px;
+        width: 700px;  
+    }
+    
+    & .form-control {
+        width: 700px;
+    }
+}
+
+.list2 {
+    margin-top: -180px;
+    margin-left: 200px;
+    padding-right: 0;
+    width: 840px;
+}
+
+@media screen and (max-width: 768px) {
+    .list2 {
+        position: relative;
+        top: 0;
+        left: 2px;
+        width: 734px; /* เปลี่ยน width เป็น 100% เพื่อให้เต็มความกว้างของคอลัมน์ */
+        margin: 10px; /* เอา margin ออก */
+    }
+}
+
+
+
+.radio {
+    margin-left: -10px;
+    width: 1700px;
+}
+
+@media screen and (max-width:768px) {
+    .radio {
+        position: relative;
+        left: -1px;
+        top: 0;
+        width: 750px;
+    }
+}
+
+.reviews {
+    margin-bottom: 20px;
+    margin-left: -10px;
+    width: 1700px;
+}
+
+@media screen and (max-width:768px) {
+    .reviews {
+        position: relative;
+        left: -1px;
+        top: 0;
+        width: 750px;
+    }
+}
